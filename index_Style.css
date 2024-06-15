@@ -138,6 +138,67 @@ aside {
 .modal fade {
   background-color: aquamarine;
 }
+/* Estilos para el modal alegre con fondo verde clarito */
+.bg-light-green {
+  background-color: #e0f7fa; /* Fondo verde clarito */
+  border-radius: 15px;
+  color: #333;
+}
+
+#successModal .modal-header {
+  background-color: #81c784; /* Fondo verde */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  color: #fff;
+}
+
+#successModal .modal-title {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 24px;
+}
+
+#successModal .btn-close {
+  background-color: #81c784;
+  border-radius: 50%;
+}
+
+#successModal .modal-body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 18px;
+  background-color: #e0f7fa; /* Fondo verde clarito */
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#successModal .modal-footer {
+  background-color: #81c784; /* Fondo verde */
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#successModal .btn-secondary {
+  background-color: #4db6ac; /* Fondo verde */
+  border: none;
+  color: #fff;
+  border-radius: 25px;
+}
+
+#successModal .btn-secondary:hover {
+  background-color: #80deea; /* Hover verde clarito */
+  color: #333;
+}
+
+#spinner {
+  margin: auto;
+}
+
+#successMessage {
+  text-align: center;
+  font-size: 20px;
+  color: #388e3c;
+  font-weight: bold;
+}
+
 .carousel {
   display: none;
   position: absolute;
@@ -162,22 +223,6 @@ aside {
   display: block;
   opacity: 1;
 }
-
-/* .img_port:hover {
-  transform: rotate(-5deg);
-}
-
-.img_port_c {
-  padding: 1%;
-  object-fit: cover;
-  overflow: hidden;
-  transition: all 1s;
-}
-
-.img_port_c:hover {
-  transform: rotate(360deg);
-  border-radius: 50%;
-  box-shadow: 0px 0px 10px 10px#61468c; */
 
 @media only screen and (max-width: 1280px) {
   .img_port:hover {
